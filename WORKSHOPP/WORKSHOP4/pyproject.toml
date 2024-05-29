@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "workshop4"
+version = "0.1.0"
+description = ""
+authors = ["JonathanOSC <jonathanfelipeochoasilva@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+sqlalchemy = "^2.0.30"
+psutil = "^5.9.8"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+black = "^24.4.2"
+pylint = "^3.2.2"
+dill = "^0.3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

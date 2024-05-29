@@ -1,0 +1,8 @@
+# Ignore venv directory
+venv/
+Lib/
+Scripts/
+
+# Ignore python files
+*.pyc
+__pycache__/
